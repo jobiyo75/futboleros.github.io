@@ -1,57 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>web futboleros domingueros</title>
-    <link href="index.css" rel="stylesheet " />
-    <script src="index.js" type="text/javascript" defer></script>
 
 
     <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
     <script defer src="https://pyscript.net/latest/pyscript.js"></script>
 
-
 </head>
 <body>
-    <main>
-        <h1>futboleros domingueros</h1>
-        
-    </main>
-
-
-
-
 python code
 
 <py-script>
 print("Now you can!!") 
 </py-script>
 
-    
-Clasificación Liga 22-23
-<IMG <IMG SRC="dataframe_image.jpg">
-
-<div id="tabla"></div>
-<script src="https://d3js.org/d3.v4.min.js"></script>
-<script>
-d3.text("./Futboleros_Clasificacion.csv", function(data) {
-var parsedCSV = d3.csv.parseRows(data);
-var container = d3.select("#tabla")
-.append("table")
-.selectAll("tr")
-.data(parsedCSV).enter()
-.append("tr")
-.selectAll("td")
-.data(function(d) {return d;}).enter()
-.append("td")
-.text(function(d) {return d;});
-});
-</script>
-    
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc097U3s3jtxVYlX2mfp8c0Rut1nrPRne5vs8_gX6MZ_RVc9w/viewform?embedded=true" width="640" height="1447" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-    
-    
 </body>
 </html>
